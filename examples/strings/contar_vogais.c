@@ -19,6 +19,8 @@ int main()
     char c = tolower(frase[i]); // Converte para minúsculo
     if (c == 'a' || c == 'e' || c == 'i' || c == 'o' || c == 'u')
     {
+      // contador = contador + 1;
+      // contador += 1;
       contador++;
     }
   }

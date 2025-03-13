@@ -13,7 +13,10 @@ int main()
   fgets(palavra, sizeof(palavra), stdin);
 
   // Remover o '\n' inserido pelo fgets()
-  palavra[strcspn(palavra, "\n")] = '\0';
+  
+  // int indexOndeTemBarraN = strcspn(palavra, "\n");
+  // palavra[indexOndeTemBarraN] = "\0";
+  palavra[strcspn(palavra, "\n")] = "\0";
 
   printf("Tamanho da string: %lu caracteres\n", strlen(palavra));
 
