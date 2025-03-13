@@ -16,13 +16,9 @@ int main()
   scanf("%s", palavra);
 
   if (strstr(frase, palavra) != NULL)
-  {
     printf("A palavra \"%s\" está na frase.\n", palavra);
-  }
   else
-  {
     printf("A palavra \"%s\" NÃO está na frase.\n", palavra);
-  }
 
   return 0;
 }
